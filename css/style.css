@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: #183D3D;
+    position: relative;
+    
+}
+.naghad{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+.naghad .balance{
+    width: 22%;
+    background-color:#872341 ;
+    padding: 44px 20px;
+    border-radius: 10px;
+
+}
+.naghad .cashin{
+    width: 22%;
+    background-color:#A3B763 ;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.naghad .cashin input{
+display: block;
+margin: 10px 0;
+padding: 6px;
+}
+.naghad .cashin button{
+    padding: 6px;
+    }
+.naghad .cashout{
+    width: 22%;
+    background-color:#1F8A70 ;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.naghad .cashout input{
+    display: block;
+    margin: 10px 0;
+    padding: 6px;
+}
+.naghad .cashout button{
+    padding: 6px;
+}
+
+
+.naghad .flexiload{
+    width: 22%;
+    background-color:#860A35 ;
+    padding: 40px 20px;
+    border-radius: 10px;
+
+}
+.naghad .flexiload button{
+    margin: 10px 0;
+    padding: 6px;
+    
+}
+
+.popup{
+    width: 30%;
+    background-color:#952323 ;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top:300px;
+    left: 50%;
+    transform: translatex(-50%);
+
+    /* position: relative; */
+
+}
+.popup p{
+    color: red;
+    font-size: 25px;
+cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.popup input{
+    width: 70%;
+    display: block;
+    padding: 6px;
+    margin: 10px 0;
+}
+.popup button{
+padding:6px;
+}
+.notification{
+    width: 30%;
+    background-color:#872341 ;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+   
+}
+
+.notification p{
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+.notification h2{
+    color: red;
+    font-size: 25px;
+   
+}
+
+.choose{
+    width: 30%;
+    background-color:#001524;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+
+}
+.choose h1{
+    color: #288723;
+    font-size: 25px;
+}
+.choose h2{
+    color: #872341;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+}
+.choose p{
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer; 
+}
+
+
